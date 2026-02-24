@@ -14,13 +14,14 @@ is tested using both GUI and PowerShell.
 - **Client OS**: Windows 10
 
 ## Repository Structure
+```text
 azure-ad-lab
 │
 ├── README.md # Project documentation (this file)
 ├── screenshots/ # Screenshots of lab steps
 ├── powershell/ # PowerShell scripts used for AD configuration
 └── notes/ # Troubleshooting notes and reflections
-
+```
 ## Planned Sections
 - **Core Concepts** – Key AD concepts like Kerberos, LDAP, forest vs domain, and DNS
 - **Security Considerations** – Least privilege, group-based access control, and authentication security
@@ -31,6 +32,7 @@ azure-ad-lab
 - **Troubleshooting notes** – Problems encountered and how they were resolved
 
 ## Example Domain Structure
+```text
 lab.local
 │
 ├── Users
@@ -42,5 +44,5 @@ lab.local
 └── Groups
 ├── HR-SharedFolder
 └── IT-Admins
-
+```
 *Note: All usernames and domain objects are fictitious and for lab purposes only*
